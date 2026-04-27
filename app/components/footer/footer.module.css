@@ -1,0 +1,33 @@
+
+.footerContainer {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerLogo {
+  font-size: 1.75rem;
+  font-weight: bold;
+  letter-spacing: 15%;
+}
+
+.footerNavList {
+  display: flex;
+  gap: 36px;
+  padding: 0;
+  margin: 0;
+}
+
+.footerNavItem {
+  list-style: none;
+}
+
+/*.footerNavIcon {
+  position: relative!important;
+  width: 25px!important;
+}*/
+
+
+

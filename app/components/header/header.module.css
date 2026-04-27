@@ -1,0 +1,36 @@
+.headerContainer {
+  max-width: 1260px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerTitle {
+  background-color: var(--color-gray-75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px 56px;
+  margin: 0;
+}
+
+.headerLogo {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: var(--color-white);
+  letter-spacing: 15%;
+}
+
+.headerNavList {
+  display: flex;
+  gap: 36px;
+  padding: 0;
+  margin: 0;
+}
+
+.headerNavItem {
+  color: var(--color-gray-50);
+  font-size: 1.125rem;
+  list-style: none;
+}
