@@ -17,7 +17,6 @@ export default function Footer() {
                 alt="x-icon"
                 width={25}
                 height={25}
-                className={styles.footerNavIcon}
               />
             </li>
             <li className={styles.footerNavItem}>
@@ -26,7 +25,6 @@ export default function Footer() {
                 alt="facebook-icon"
                 width={15}
                 height={25}
-                className={styles.footerNavIcon}
               />
             </li>
             <li className={styles.footerNavItem}>
@@ -35,7 +33,6 @@ export default function Footer() {
                 alt="github-icon"
                 width={25}
                 height={25}
-                className={styles.footerNavIcon}
               />
             </li>
           </ul>
