@@ -1,0 +1,17 @@
+.heroContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroTitle {
+  font-size: 10rem;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+
+.heroDescription {
+  font-size: 1.75rem;
+}
+
