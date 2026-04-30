@@ -13,7 +13,7 @@ export default function Header() {
             <ul className={styles.headerNavList}>
               <li className={styles.headerNavItem}><Link href="/">Home</Link></li>
               <li className={styles.headerNavItem}><Link href="/about">About</Link></li>
-              <li className={styles.headerNavItem}><Link href="/contact">Blog</Link></li>
+              <li className={styles.headerNavItem}><Link href="/blog">Blog</Link></li>
             </ul>
           </nav>
         </div>
