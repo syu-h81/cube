@@ -5,11 +5,15 @@ type Props = {
   title: string;
   description: string;
   imageSrc?: string;
+  variant?: "default" | "about";
 };
 
-export default function Hero({ title, description, imageSrc }: Props) {
+export default function Hero({ title, description, imageSrc, variant }: Props) {
   return (
-    <section className={styles.hero}>
+    <section className={`${styles.hero} ${
+      variant === "about" ? styles.heroAbout : ""
+      }`}
+    >
       <div className={`${styles.heroContainer} container`}>
         <div className={styles.heroBody}>
           <h2 className={styles.heroTitle}>{title}</h2>
