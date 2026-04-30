@@ -48,3 +48,9 @@ button {
   max-width: var(--container-width);
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  .main {
+    padding: 0 15px;
+  }
+}

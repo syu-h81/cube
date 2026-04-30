@@ -14,3 +14,13 @@
   font-weight: 400;
   margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+  .postBody {
+    gap: 20px;
+  }
+  .postTitle {
+    font-size: 0.75rem;
+    margin-top: 5px;
+  }
+}

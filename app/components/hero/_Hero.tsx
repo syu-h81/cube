@@ -23,6 +23,7 @@ export default function Hero({ title, description, imageSrc }: Props) {
               width={575}
               height={498}
               priority
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
         )}

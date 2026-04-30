@@ -34,3 +34,26 @@
   font-size: 1.125rem;
   list-style: none;
 }
+
+@media (max-width: 768px) {
+  .headerContainer {
+    padding: 0 15px;
+  }
+
+  .headerTitle {
+    padding: 14px 28px;
+    font-size: 1.5rem;
+  }
+
+  .headerLogo {
+    font-size: 0.875rem;
+  }
+
+  .headerNavList {
+    gap: 32px;
+  }
+
+  .headerNavItem {
+    font-size: 1rem;
+  }
+}

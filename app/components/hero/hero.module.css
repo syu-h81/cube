@@ -15,3 +15,23 @@
   font-size: 1.75rem;
 }
 
+@media (max-width: 768px) {
+  .heroContainer {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .heroBody {
+    padding-top: 36px;
+  }
+
+  .heroTitle {
+    font-size: 4.5rem;
+  }
+
+  .heroDescription {
+    font-size: 1.25rem;
+  }
+}
+
